@@ -1,0 +1,9 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="HourLabel"  />
+    <label id="MinLabel"  />
+    <label id="SecLabel" />
+  	<label id="BatteryStatusLabel" />
+  	<label id="DateLabel" />
+	
+</layout>

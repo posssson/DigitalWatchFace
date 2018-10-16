@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="3" lineNum="13" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="3" lineNum="14" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="4" lineNum="19" pc="268435479" symbol="onLayout"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="4" lineNum="20" pc="268435483" symbol="onLayout"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="5" lineNum="26" pc="268435521" symbol="onShow"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="30" pc="268435526" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="32" pc="268435530" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="33" pc="268435549" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="35" pc="268435568" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="36" pc="268435575" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="37" pc="268435582" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="38" pc="268435589" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="39" pc="268435606" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="40" pc="268435616" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="41" pc="268435626" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="43" pc="268435644" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="44" pc="268435679" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="45" pc="268435734" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="47" pc="268435769" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="48" pc="268435793" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="50" pc="268435855" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="52" pc="268435879" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="54" pc="268435941" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="55" pc="268435965" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="57" pc="268436027" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="58" pc="268436034" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="59" pc="268436047" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="60" pc="268436064" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="61" pc="268436074" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="62" pc="268436092" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="63" pc="268436099" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="64" pc="268436134" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="65" pc="268436158" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="66" pc="268436184" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="68" pc="268436249" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="71" pc="268436311" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="72" pc="268436355" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="73" pc="268436431" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="74" pc="268436455" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="78" pc="268436517" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="80" pc="268436537" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="81" pc="268436554" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="6" lineNum="82" pc="268436590" symbol="onUpdate"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="7" lineNum="89" pc="268436659" symbol="onHide"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="8" lineNum="93" pc="268436664" symbol="onExitSleep"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="9" lineNum="97" pc="268436669" symbol="onEnterSleep"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="100" pc="268436674" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="101" pc="268436678" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="102" pc="268436692" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="103" pc="268436706" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="104" pc="268436720" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceView.mc" id="10" lineNum="105" pc="268436754" symbol="setScreen"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="12" lineNum="6" pc="268436769" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="12" lineNum="7" pc="268436773" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="13" lineNum="11" pc="268436792" symbol="onStart"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="14" lineNum="15" pc="268436797" symbol="onStop"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="15" lineNum="19" pc="268436802" symbol="getInitialView"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="15" lineNum="20" pc="268436806" symbol="getInitialView"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="16" lineNum="24" pc="268436844" symbol="onSettingsChanged"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceApp.mc" id="16" lineNum="25" pc="268436848" symbol="onSettingsChanged"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="18" lineNum="7" pc="268436865" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="18" lineNum="8" pc="268436869" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="18" lineNum="12" pc="268436890" symbol="initialize"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="19" lineNum="15" pc="268436911" symbol="draw"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="19" lineNum="17" pc="268436915" symbol="draw"/>
+<entry filename="/Users/Guitou/eclipse-workspace/DigitalWatchFace/source/DigitalWatchFaceBackground.mc" id="19" lineNum="18" pc="268436951" symbol="draw"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="29" pc="268436964" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="33" pc="268436976" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="34" pc="268437000" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="35" pc="268437075" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="36" pc="268437150" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="37" pc="268437225" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="38" pc="268437300" symbol="WatchFace"/>
+<entry filename="/Users/Guitou/eclipse/java-2018-09/Eclipse.app/Contents/MacOS/Rez" id="26" lineNum="41" pc="268437375" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="15" symbol="ColorBlue"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="22" symbol="ColorWhite"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="24" method="true" symbol="setScreen"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="21" symbol="ColorBlack"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="16" symbol="ColorRed"/>
+<entry field="true" id="17" symbol="ForegroundColorTitle"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="10" object="true" symbol="DigitalWatchFaceApp"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="9" object="true" symbol="DigitalWatchFaceView"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="19" symbol="ColorDarkGray"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="14" symbol="ColorLightGray"/>
+<entry field="true" id="18" symbol="BackgroundColorTitle"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="20" symbol="MilitaryFormatTitle"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268436658" name="secFormat" stackId="4" startPc="268435530"/>
+<entry endPc="268436658" name="viewBattery" stackId="19" startPc="268435530"/>
+<entry endPc="268436658" name="batteryStatus" stackId="16" startPc="268435530"/>
+<entry endPc="268436658" name="batteryFormat" stackId="17" startPc="268435530"/>
+<entry endPc="268436658" name="minString" stackId="9" startPc="268435530"/>
+<entry endPc="268436658" name="hourFormat" stackId="2" startPc="268435530"/>
+<entry endPc="268436658" name="batteryStatusString" stackId="18" startPc="268435530"/>
+<entry endPc="268436658" name="secString" stackId="10" startPc="268435530"/>
+<entry endPc="268436658" name="batteryOK" stackId="14" startPc="268435530"/>
+<entry endPc="268436658" name="hourString" stackId="8" startPc="268435530"/>
+<entry endPc="268436658" name="minFormat" stackId="3" startPc="268435530"/>
+<entry endPc="268436658" name="seconds" stackId="7" startPc="268435530"/>
+<entry endPc="268436658" name="viewDate" stackId="22" startPc="268435530"/>
+<entry endPc="268436658" name="myStats" stackId="15" startPc="268435530"/>
+<entry endPc="268436658" name="clockTime" stackId="5" startPc="268435530"/>
+<entry endPc="268436658" name="viewMin" stackId="12" startPc="268435530"/>
+<entry endPc="268436658" name="hours" stackId="6" startPc="268435530"/>
+<entry endPc="268436658" name="today" stackId="20" startPc="268435530"/>
+<entry endPc="268436658" name="dateString" stackId="21" startPc="268435530"/>
+<entry endPc="268436658" name="viewHour" stackId="11" startPc="268435530"/>
+<entry endPc="268436658" name="viewSec" stackId="13" startPc="268435530"/>
+<entry endPc="268436659" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268436769" name="x" stackId="2" startPc="268436674"/>
+<entry endPc="268436769" name="view" stackId="1" startPc="268436674"/>
+<entry endPc="268436769" name="justify" stackId="6" startPc="268436674"/>
+<entry endPc="268436769" name="color" stackId="5" startPc="268436674"/>
+<entry endPc="268436769" name="font" stackId="4" startPc="268436674"/>
+<entry endPc="268436769" name="string" stackId="7" startPc="268436674"/>
+<entry endPc="268436769" name="y" stackId="3" startPc="268436674"/>
+<entry endPc="268436797" name="state" stackId="1" startPc="268436792"/>
+<entry endPc="268436802" name="state" stackId="1" startPc="268436797"/>
+<entry endPc="268436910" name="dictionary" stackId="1" startPc="268436869"/>
+<entry endPc="268436964" name="dc" stackId="1" startPc="268436911"/>
+<entry endPc="268437442" name="rez_cmp_local_bitmap_DateLabel" stackId="7" startPc="268436976"/>
+<entry endPc="268437442" name="rez_cmp_local_bitmap_SecLabel" stackId="5" startPc="268436976"/>
+<entry endPc="268437442" name="rez_cmp_local_custom_drawable_30349775290476031117" stackId="2" startPc="268436976"/>
+<entry endPc="268437442" name="rez_cmp_local_bitmap_MinLabel" stackId="4" startPc="268436976"/>
+<entry endPc="268437442" name="rez_cmp_local_bitmap_BatteryStatusLabel" stackId="6" startPc="268436976"/>
+<entry endPc="268437442" name="rez_cmp_local_bitmap_HourLabel" stackId="3" startPc="268436976"/>
+<entry endPc="268437443" name="dc" stackId="1" startPc="268436964"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="DigitalWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="DigitalWatchFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="DigitalWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="DigitalWatchFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="DigitalWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="DigitalWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="DigitalWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setScreen" parent="DigitalWatchFaceView">
+<param id="view"/>
+<param id="x"/>
+<param id="y"/>
+<param id="font"/>
+<param id="color"/>
+<param id="justify"/>
+<param id="string"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DigitalWatchFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="DigitalWatchFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="DigitalWatchFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="DigitalWatchFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="DigitalWatchFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="237" parentId="globals" symbolId="DigitalWatchFaceApp" type="class"/>
+<dataEntry offset="316" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="434" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="465" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="496" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="527" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="566" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="677" parentId="globals" symbolId="DigitalWatchFaceView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
