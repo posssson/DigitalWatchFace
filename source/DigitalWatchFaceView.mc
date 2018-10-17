@@ -10,9 +10,14 @@ class DigitalWatchFaceView extends Ui.WatchFace {
 var width;
 var height;
 var testFont;
-
+var batteryOK =19;
+var dictionaryConnection;
     function initialize() {
         WatchFace.initialize();
+        dictionaryConnection = {
+            :bluetooth => "bluetooth",
+            :wifi => "wifi"
+        };
         
     }
 
@@ -42,49 +47,50 @@ var testFont;
         var hours = clockTime.hour;
         var seconds = clockTime.sec;
         hours = hours.format("%02d");
-
         var hourString = Lang.format(hourFormat, [hours]);
 		var minString = Lang.format(minFormat, [clockTime.min.format("%d")]);
 		var secString = Lang.format(secFormat, [seconds]);
-        // Update the view
-        var viewHour = View.findDrawableById("HourLabel");
-        setScreen(viewHour, 0.48,0.3,Gfx.FONT_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,hourString);
-        
-        var viewMin = View.findDrawableById("MinLabel");
-
-        setScreen(viewMin, 0.48,0.55,Gfx.FONT_SYSTEM_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,minString);
-        
-        var viewSec = View.findDrawableById("SecLabel");
-        setScreen(viewSec, 0.48,0.8,Gfx.FONT_SMALL,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,secString);
-       
-        var batteryOK =19;
         batteryOK= batteryOK.toNumber();
 		var myStats = Sys.getSystemStats();
 		var batteryStatus = myStats.battery;
 		batteryStatus= batteryStatus.format("%d");
 		var batteryFormat = "$1$%";
 		var batteryStatusString = Lang.format(batteryFormat, [batteryStatus]);
-		var viewBattery = View.findDrawableById("BatteryStatusLabel");
-		if (batteryStatus.toNumber() > (batteryOK.toFloat())) {
-       		setScreen(viewBattery, 0.52,0.1,Gfx.FONT_SMALL,Gfx.COLOR_GREEN,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
-		} else {
- 			setScreen(viewBattery, 0.52,0.3,Gfx.FONT_SMALL,Gfx.COLOR_RED,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
-		}
-		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var dateString = Lang.format("$1$ $2$ $3$", [today.day_of_week,today.day,today.month]);
-       	var viewDate = View.findDrawableById("DateLabel");
-        setScreen(viewDate, 0.48,0.2,Gfx.FONT_TINY,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,dateString);
-       
-
+ 
+ 		var mySettings = Sys.getDeviceSettings();
+ 		var phone = mySettings.phoneConnected;
+ 		var connection = mySettings.connectionInfo;
+ 		Sys.println(dictionaryConnection.get(connection));
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
+        // DRAW LINE
         dc.setPenWidth(1);
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-    	dc.drawLine(0.5*width,0*height,0.5*width,1*height);
-    	dc.drawText(0.7*width,0.7*height, testFont, hours, Gfx.TEXT_JUSTIFY_RIGHT);
-  		dc.drawText(0.7*width,0.5*height, testFont, seconds, Gfx.TEXT_JUSTIFY_RIGHT);
+    	dc.drawLine(0.5*width,0.2*height,0.5*width,0.8*height);
+    	
+  		
+  		
+  		// DRAW TEXT
+  		// DATE
+  		draw(dc,0.48,0.2,Gfx.FONT_TINY,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,dateString);
+  		// HOUR
+      	draw(dc,0.48,0.3,Gfx.FONT_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,hourString);
+  		// MINUTE
+  		draw(dc,0.48,0.55,Gfx.FONT_SYSTEM_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,minString);
+  		// SECONDS
+       	draw(dc,0.48,0.8,Gfx.FONT_SMALL,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,secString);
+  		
+  		// 
+
+        //BATTERY
+  		if (batteryStatus.toNumber() > (batteryOK.toFloat())) {
+       		draw(dc,0.52,0.1,Gfx.FONT_SMALL,Gfx.COLOR_GREEN,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
+       	} else {
+       		draw(dc,0.52,0.1,Gfx.FONT_SMALL,Gfx.COLOR_RED,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
+ 			}
     }
 
     // Called when this View is removed from the screen. Save the
@@ -101,12 +107,18 @@ var testFont;
     function onEnterSleep() {
     }
     
-    function setScreen (view, x,y,font,color,justify,string){
+    function setScreen (view,x, y,font,color,justify,string){
     	view.setColor(color);
         view.setFont(font);
         view.setJustification(justify);
         view.setLocation(x*width,y*height);
         view.setText(string);
+
+    }
+    
+        function draw (dc,x, y,font,color,justify,string){
+        dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+        dc.drawText(x*width,y*height, font, string, justify);
     }
 
 }
