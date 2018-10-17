@@ -1,14 +1,15 @@
-using Toybox.WatchUi;
-using Toybox.Graphics;
-using Toybox.System;
-using Toybox.Lang;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
+using Toybox.Lang as Lang;
 using Toybox.Application;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 
-class DigitalWatchFaceView extends WatchUi.WatchFace {
+class DigitalWatchFaceView extends Ui.WatchFace {
 var width;
 var height;
+var testFont;
 
     function initialize() {
         WatchFace.initialize();
@@ -18,6 +19,8 @@ var height;
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
+        testFont = Ui.loadResource(Rez.Fonts.test);
+
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -35,7 +38,7 @@ var height;
         var hourFormat = "$1$";
         var minFormat = "$1$";
         var secFormat = "$1$";
-        var clockTime = System.getClockTime();
+        var clockTime = Sys.getClockTime();
         var hours = clockTime.hour;
         var seconds = clockTime.sec;
         hours = hours.format("%02d");
@@ -45,42 +48,43 @@ var height;
 		var secString = Lang.format(secFormat, [seconds]);
         // Update the view
         var viewHour = View.findDrawableById("HourLabel");
-        setScreen(viewHour, 0.48,0.3,Graphics.FONT_NUMBER_HOT,Graphics.COLOR_BLACK,Graphics.TEXT_JUSTIFY_RIGHT,hourString);
+        setScreen(viewHour, 0.48,0.3,Gfx.FONT_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,hourString);
         
         var viewMin = View.findDrawableById("MinLabel");
 
-        setScreen(viewMin, 0.48,0.55,Graphics.FONT_SYSTEM_NUMBER_HOT,Graphics.COLOR_BLACK,Graphics.TEXT_JUSTIFY_RIGHT,minString);
+        setScreen(viewMin, 0.48,0.55,Gfx.FONT_SYSTEM_NUMBER_HOT,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,minString);
         
         var viewSec = View.findDrawableById("SecLabel");
-        setScreen(viewSec, 0.48,0.8,Graphics.FONT_SMALL,Graphics.COLOR_BLACK,Graphics.TEXT_JUSTIFY_RIGHT,secString);
+        setScreen(viewSec, 0.48,0.8,Gfx.FONT_SMALL,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,secString);
        
         var batteryOK =19;
         batteryOK= batteryOK.toNumber();
-		var myStats = System.getSystemStats();
+		var myStats = Sys.getSystemStats();
 		var batteryStatus = myStats.battery;
 		batteryStatus= batteryStatus.format("%d");
 		var batteryFormat = "$1$%";
 		var batteryStatusString = Lang.format(batteryFormat, [batteryStatus]);
 		var viewBattery = View.findDrawableById("BatteryStatusLabel");
 		if (batteryStatus.toNumber() > (batteryOK.toFloat())) {
-       		setScreen(viewBattery, 0.52,0.1,Graphics.FONT_SMALL,Graphics.COLOR_GREEN,Graphics.TEXT_JUSTIFY_LEFT,batteryStatusString);
+       		setScreen(viewBattery, 0.52,0.1,Gfx.FONT_SMALL,Gfx.COLOR_GREEN,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
 		} else {
- 			setScreen(viewBattery, 0.52,0.3,Graphics.FONT_SMALL,Graphics.COLOR_RED,Graphics.TEXT_JUSTIFY_LEFT,batteryStatusString);
+ 			setScreen(viewBattery, 0.52,0.3,Gfx.FONT_SMALL,Gfx.COLOR_RED,Gfx.TEXT_JUSTIFY_LEFT,batteryStatusString);
 		}
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var dateString = Lang.format("$1$ $2$ $3$", [today.day_of_week,today.day,today.month]);
        	var viewDate = View.findDrawableById("DateLabel");
-        setScreen(viewDate, 0.48,0.2,Graphics.FONT_TINY,Graphics.COLOR_BLACK,Graphics.TEXT_JUSTIFY_RIGHT,dateString);
+        setScreen(viewDate, 0.48,0.2,Gfx.FONT_TINY,Gfx.COLOR_BLACK,Gfx.TEXT_JUSTIFY_RIGHT,dateString);
        
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
         dc.setPenWidth(1);
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
     	dc.drawLine(0.5*width,0*height,0.5*width,1*height);
-   
+    	dc.drawText(0.7*width,0.7*height, testFont, hours, Gfx.TEXT_JUSTIFY_RIGHT);
+  		dc.drawText(0.7*width,0.5*height, testFont, seconds, Gfx.TEXT_JUSTIFY_RIGHT);
     }
 
     // Called when this View is removed from the screen. Save the
